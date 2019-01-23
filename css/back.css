@@ -1,0 +1,28 @@
+#pagetop {
+  position: fixed;
+  left: 2px;
+  top: 2px;
+  padding-left: 20px;
+  padding-top: 5px;
+ width: 60px;
+	height: 38px;
+  z-index: 10000;
+ background: #FFF;
+ border-radius: 70px;
+	-moz-border-radius: 70px;
+	color: #2a82a3;
+	padding: 18px 2px 2px;
+	display: block;
+	-webkit-border-radius: 70px;
+ border: 2px dotted #2a82a3;
+ transition: background-color 0.5s ease-in;
+	-webkit-transition: background-color 0.5s ease-in;
+	opacity:0.8;
+}
+
+span{
+	padding-left:12px;
+	margin-bottom:5px;
+	padding-top:-7px;
+	font-size:17px;
+}

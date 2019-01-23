@@ -1,0 +1,22 @@
+ul.nav  {
+    display:table;
+}
+ul.nav li{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/*c_void.phpレスポンシブ対応*/
+@media screen and (max-width: 778px){
+	.kuroubamigi8 {
+    margin-top: 50px;
+    height: 43px;
+    width: 53px;
+    float: right;
+    margin-bottom: -20px;
+    margin-right: 21px;
+    transform: scale(-1, -1);
+}
+
+}
